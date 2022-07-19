@@ -1,0 +1,30 @@
+body{
+    background: url('HBD BG.webp');
+}
+
+h1{
+    font-size: 40;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aqua;
+    color: blueviolet;
+    border-radius: 15px;
+    width: fit-content;
+    font-family: 'Dancing Script', cursive;
+}
+
+img{
+    height: 450px;
+    width: 400px;
+    animation-name: border;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    border: indigo dotted 4px;
+}
+
+@keyframes border{
+    from{box-shadow: 10px 10px 30px rgb(125, 255, 10) ;}
+    to{box-shadow: 10px 10px 30px rgb(224, 8, 141) ;}
+}
